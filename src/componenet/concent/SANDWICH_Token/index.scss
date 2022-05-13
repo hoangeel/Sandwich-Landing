@@ -1,0 +1,96 @@
+div.SANDWICHToken{
+    width: 100%;
+    background: #F4F5F6;
+    height: 1037px;
+    h1{
+        display:flex;
+        justify-content: center;
+        width: 100%;
+        height: 53px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 48px;
+        line-height: 56px;
+        text-align: center;
+        color: #23262F;
+        margin-bottom: 83.19px;
+    }
+    
+    div.flex{
+        display: grid;
+        grid: 263px / auto auto auto;
+        justify-content: center;
+        grid-row-gap: 40px;
+        grid-column-gap: 20px;
+        div.cardMap{
+            width: 312px;
+            height: 263px;
+            div.item{
+                display:flex;
+                justify-content: center;
+                width: 74.55px;
+                height: 74px;
+                background: #FFF5F5;
+                border-radius: 50%;
+                margin-left: 118.72px;
+                margin-top: 51px;
+
+                img{
+                    width: 24.18px;
+                    height: 24px;
+                    margin-top: 24px;
+                }
+            }
+            p.text{
+                display:flex;
+                justify-content: center;
+                width: 194px;
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 31px;
+                text-align: center;
+                color: #777E91;
+                flex: none;
+                order: 1;
+                flex-grow: 0;
+                margin: 50px 59px  ;
+            }
+        }
+    }
+    div.cardMap:hover, div.cardMap:focus{
+        background: #FCFCFD;
+        box-shadow: 0px 4px 80px rgba(0, 0, 0, 0.04);
+        border-radius: 20px;
+    }
+}
+@media (min-width: 1026px) {
+    
+}   
+@media (max-width: 1025px) {
+    
+}   
+
+@media (max-width: 768px) {
+    div.SANDWICHToken{
+        height: 1337px;
+        div.flex{
+            display: grid;
+            grid: 263px / auto auto;
+
+        }
+    }
+}
+
+@media (max-width: 480px) {
+    div.SANDWICHToken{
+        height: auto;
+        div.flex{
+            display: grid;
+            grid: 263px / auto;
+
+        }
+    }
+}
