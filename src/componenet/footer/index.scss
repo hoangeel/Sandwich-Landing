@@ -424,7 +424,113 @@ div.footer{
             }
         }
     }
-    
+    div.footer_end{
+        display: flex;
+        margin-top: 103.01px;
+        justify-content: center;
+        ul.nav{
+            h4{
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 14px;
+                line-height: 12px;
+                text-transform: uppercase;
+                color: #23262F;
+            }
+            p{
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 14px;
+                line-height: 30px;
+                color: #777E90;
+                margin: 21px 112px 0px -15px;
+            }
+            li.item_LOGO{
+                img{
+                    margin: -20px 0px 11px 0px;
+                    width: 148px;
+                    height: 46px;
+                }
+                p{
+                    width: 278px;
+                    height: 69px;
+                    margin-top: 0px;
+                }
+                &:hover{
+                    cursor: pointer;
+                }
+            }
+            li.Products{
+                p{
+                    width: 119px;
+                    height: 132px;
+                }
+                &:hover{
+                    cursor: pointer;
+                }
+            }
+            li.Support{
+                p{
+                    width: 144px;
+                    height: 99px;
+                }
+                &:hover{
+                    cursor: pointer;
+                }
+            }
+            li.Social{
+                div.item_Telegram{
+                    background: url(../img/item_Telegram.png);
+                    background-repeat: no-repeat;
+                    background-size: 100%;
+                    width: 17px;
+                    height: 15px;
+                    margin-top: -85px;
+                }
+                div.item_Twitter_black{
+                    background: url(../img/item_Twitter_black.png);
+                    background-repeat: no-repeat;
+                    background-size: 100%;
+                    width: 17px;
+                    height: 15px;
+                    margin-top: 15px;
+                }
+                div.item_Medium{
+                    background: url(../img/item_Medium.png);
+                    background-repeat: no-repeat;
+                    background-size: 100%;
+                    width: 17px;
+                    height: 15px;
+                    margin-top: 15px;
+                }
+                p{
+                    width: 100px;
+                    height: 99px;
+                    margin-left: 13px;
+                }
+                &:hover{
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+    div.end{
+        text-align: center;
+        width: 100%;
+        height: 20px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 20px;
+        color: #777E91;
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        margin-top: 39px;
+    }
 }
 
 @media (min-width: 1025px) {
@@ -559,6 +665,13 @@ div.footer{
                 }
             }
         }
+        div.footer_end{
+            ul.nav{
+                p{
+                    margin: 21px 80px 0px -15px;
+                }
+            }
+        }
     }
 }   
 
@@ -665,6 +778,18 @@ div.footer{
                         background-size: 450px 330px;
                         background-position: 0px 40px;
                         background-repeat: no-repeat;
+                    }
+                }
+            }
+        }
+        div.footer_end{
+            ul.nav{
+                p{
+                    margin: 21px 40px 0px -15px;
+                }
+                li.item_LOGO{
+                    p{
+                        width: 230px;
                     }
                 }
             }
@@ -919,6 +1044,26 @@ div.footer{
                         width: 615px;
                         height: 500px;
                     }
+                }
+            }
+        }
+        div.footer_end{
+            ul.nav{
+                p{
+                    margin: 21px 0px 0px -15px;
+                }
+                li.item_LOGO{
+                    img{
+                        margin-left: 100px;
+                    }
+                    p{
+                        text-align: center;
+                        width: 100%;
+                        margin-bottom: 30px;
+                    }
+                }
+                li.Products{
+                    margin-left: 10px;
                 }
             }
         }

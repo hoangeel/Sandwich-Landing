@@ -26,6 +26,7 @@ div.SANDWICHToken{
         div.cardMap{
             width: 312px;
             height: 263px;
+            padding-top: 10px;
             div.item{
                 display:flex;
                 justify-content: center;
@@ -34,8 +35,7 @@ div.SANDWICHToken{
                 background: #FFF5F5;
                 border-radius: 50%;
                 margin-left: 118.72px;
-                margin-top: 51px;
-
+                margin-top: 30px;
                 img{
                     width: 24.18px;
                     height: 24px;
@@ -56,7 +56,7 @@ div.SANDWICHToken{
                 flex: none;
                 order: 1;
                 flex-grow: 0;
-                margin: 50px 59px  ;
+                margin: 25px 59px 0px 59px ;
             }
         }
     }
