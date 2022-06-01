@@ -1,13 +1,13 @@
 import React from 'react'
 import "./index.scss"
-import Item_1 from "../../img/SANDWICH_Token_Vector(2).png"
-import Item_2 from "../../img/SANDWICH_Token_Vector(3).png"
-import Item_3 from "../../img/SANDWICH_Token_Vector(4).png"
-import Item_4 from "../../img/SANDWICH_Token_Vector(5).png"
-import Item_5 from "../../img/SANDWICH_Token_Vector(6).png"
-import Item_6 from "../../img/SANDWICH_Token_Vector(7).png"
+import Item_1 from "../../../assets/images/SANDWICH_Token_Vector(2).png"
+import Item_2 from "../../../assets/images/SANDWICH_Token_Vector(3).png"
+import Item_3 from "../../../assets/images/SANDWICH_Token_Vector(4).png"
+import Item_4 from "../../../assets/images/SANDWICH_Token_Vector(5).png"
+import Item_5 from "../../../assets/images/SANDWICH_Token_Vector(6).png"
+import Item_6 from "../../../assets/images/SANDWICH_Token_Vector(7).png"
 
-export default function SANDWICH_Token() {
+export default function SANDWICHToken() {
   const dataCart = [
       {
         id: 1,
@@ -58,7 +58,7 @@ export default function SANDWICH_Token() {
                         <div className='item'>
                         <img src={index.item} alt={index.item} />
                         </div>
-                        <p className='text'>{index.text}</p>
+                        <p className={index.class}>{index.text}</p>
                     </div>
                 </div>
             )

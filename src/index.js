@@ -2,13 +2,18 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.scss';
 import reportWebVitals from './reportWebVitals';
-import Header from './componenet/header';
+import Header from './component/Header';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import The_most_delicious_tools from './componenet/concent/The_most_delicious_tools';
-import Why_Sandwich_Network from './componenet/concent/Why_Sandwich_Network';
-import SANDWICH_Token from './componenet/concent/SANDWICH_Token';
-import How_to_buy_SANDWICH from './componenet/concent/How_to_buy_SANDWICH';
-import Footer from './componenet/footer';
+import 'bootstrap/dist/js/bootstrap.min.js';
+import Section from './component/Content/Slider';
+import TheMostDeliciousTools from './component/Content/TheMostDeliciousTools';
+import WhySandwichNetwork from './component/Content/WhySandwichNetwork';
+import SANDWICHToken from './component/Content/SANDWICHToken';
+import HowToBuySANDWICH from './component/Content/HowToBuySANDWICH';
+import PartnersBackers from './component/Content/PartnersBackers';
+import JoinTheCommunity from './component/Content/JoinTheCommunity';
+import Footer from './component/Footer';
+
 
 
 ReactDOM.render(
@@ -16,11 +21,14 @@ ReactDOM.render(
     <div className='sandwich'>
       <Header/>
 
-      <The_most_delicious_tools/>
-      <Why_Sandwich_Network/>
-      <SANDWICH_Token/>
-      <How_to_buy_SANDWICH/>
-      
+      <Section/>
+      <TheMostDeliciousTools/>
+      <WhySandwichNetwork/>
+      <SANDWICHToken/>
+      <HowToBuySANDWICH/>
+      <PartnersBackers/>
+      <JoinTheCommunity/>
+
       <Footer/>
     </div>
   </React.StrictMode>,

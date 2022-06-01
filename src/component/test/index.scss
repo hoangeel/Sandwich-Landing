@@ -1,0 +1,15 @@
+div.test{
+    background-color: aqua;
+    textarea{
+        background-color: aqua;
+        &:focus {
+            background: pink;
+          }
+    }
+    textarea:focus {
+        background: pink;
+      }
+    &:focus{
+        background-color: black;
+    }
+}

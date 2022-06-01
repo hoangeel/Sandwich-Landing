@@ -1,0 +1,213 @@
+
+div.header{
+    display: flex;
+    width: 100%;
+    margin-top: 5px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.03);
+    justify-content: center;
+    div.flexHeader{
+        display: flex;
+        flex-direction:row ;
+        justify-content: center;
+        div.LOGO{
+            margin: 23px 53.25px 24px 80px ;
+            &:hover{
+                cursor: pointer;
+            }
+        }
+        div.divider{
+            width: 1px;
+            height: 40px;
+            background: #E6E8EC;
+            margin: 26px 0px 27px 0px ;
+            border: #E6E8EC;;
+        }
+        div.menu{
+            display: flex;
+            flex-direction: row;
+            margin: 40px 200.5px 0px 64.75px;
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 16px;
+            text-align: center;
+            color: #777E91;
+            p{
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 12px;
+                line-height: 12px;
+                text-align: center;
+                color: #777E91;
+                margin-top: 2px;
+            }
+            div.SandwichBeta{
+                margin-right: 90.5px;
+                &:hover{
+                    opacity: 0.7;
+                    cursor: pointer;
+                }
+            }
+            div.SandwichSAFU{
+                margin-right: 79px;
+                &:hover{
+                    opacity: 0.7;
+                    cursor: pointer;
+                }
+            }
+            div.SandwichTools{
+                margin-right: 79px;
+                &:hover{
+                    opacity: 0.7;
+                    cursor: pointer;
+                }
+            }
+            div.SandwichSwap{
+                &:hover{
+                    opacity: 0.7;
+                    cursor: pointer;
+                }
+            }
+        }
+        button.ConnectWallet{
+            justify-content: center;
+            align-items: center;
+            padding: 16px 24px;
+            margin: 22px 80px 23px 0px;
+            gap: 17px;
+            background: #35C4FF;
+            border-radius: 90px;
+            flex: none;
+            order: 0;
+            flex-grow: 0;
+            max-width: 153px;
+            height: 48px;
+            border: #35C4FF;
+            font-family: 'DM Sans';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 16px;
+            text-align: center;
+            color: #FCFCFD;
+            flex: none;
+            order: 0;
+            flex-grow: 0;
+            &:hover{
+                cursor: pointer;
+                opacity: 0.7;
+            }
+        }
+        div.iconMenu{
+            margin-top:35px;
+            display: none;
+            img{
+                width: 30px;
+                height: 30px;
+                &:hover{
+                    cursor: pointer;
+                }
+            }
+            div.list{
+                width: 100%;
+                li{
+                    list-style: none;
+                    text-align: center;
+                    margin: 40px;
+                    &:hover{
+                        cursor: pointer;
+                        opacity: 0.7;
+                    }
+                    a{
+                        text-decoration: none;
+                        font-family: 'Inter';
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 14px;
+                        line-height: 16px;
+                        text-align: center;
+                        color: #777E91;
+                        p{
+                            font-family: 'Inter';
+                            font-style: normal;
+                            font-weight: 400;
+                            font-size: 12px;
+                            line-height: 12px;
+                            text-align: center;
+                            color: #777E91;
+                            margin-top: 2px;                            
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 1025px) {
+    div.header{
+        div.flexHeader{
+            div.LOGO{
+                width: 148px;
+                height: 46px;
+                margin: 23px 0px 24px 50px ;
+            }
+            div.divider{
+                display: none;
+            }
+            div.menu{
+                margin: 40px 50.5px 0px 30px;
+                div.SandwichBeta{
+                    margin-right: 40px;
+                }
+                div.SandwichSAFU{
+                    margin-right: 40px;
+                }
+                div.SandwichTools{
+                    margin-right: 40px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    div.header{
+        div.flexHeader{
+            width: 100%;
+            justify-content:space-between;
+            div.LOGO{
+                margin: 23px 0px 24px 50px ;
+            }
+            div.divider{
+                display: none;
+            }
+            div.menu{
+                display: none;
+            }
+            button.ConnectWallet{
+                display: none;
+            }
+            div.iconMenu{
+                display: inline; 
+                margin-right: 50px; 
+            }
+        }
+    }
+}
+
+@media (max-width: 480px) {
+    div.header{
+        div.flexHeader{
+            div.LOGO{
+                margin-left:30px ;
+            }
+            div.iconMenu{
+                margin-right: 30px; 
+            }
+        }
+    }
+}

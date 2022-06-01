@@ -1,0 +1,178 @@
+div.JoinTheCommunity{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    div.ContentJoinTheCommunity{
+        background: #2BA6E1;
+        backdrop-filter: blur(59px);
+        border-radius: 27px;
+        display: flex;
+        flex-direction: row;
+        div.content{
+            margin: 143px 20px 127px 90px;
+            h1{
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 44px;
+                line-height: 56px;
+                color: #FFFFFF;
+                width: 457px;
+            }
+            p{
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 31px;
+                color: #FFFFFF; 
+                max-width: 388px;  
+                margin: 21px 0px 47px;            
+            }
+            div.JoinUsOnTelegram{
+                background: #FFFFFF;
+                border-radius: 1000px;
+                padding: 19px 0px 18px ;
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 18px;
+                line-height: 36px;
+                color: #2BA6E1;
+                text-align: center;
+                width: 350px;
+                &:hover{
+                    cursor: pointer;
+                    opacity: 0.7;
+                }
+            }
+            div.button{
+                display: flex;
+                flex-direction: row;
+                margin-top: 20px;
+                div.OurMedium{
+                    border: 1px solid #FFFFFF;
+                    border-radius: 1000px;
+                    width: 167px;
+                    display: flex;
+                    flex-direction: row;
+                    img{
+                        width: 20px;
+                        height: 16px;
+                        margin: 23px 12px 22px 23px;
+                    }
+                    h6{
+                        width: 83px;
+                        font-family: 'Inter';
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 14px;
+                        line-height: 36px;
+                        color: #FFFFFF;
+                        margin-top: 13px;
+                    }
+                    margin-right: 20px;
+                    &:hover{
+                        cursor: pointer;
+                        opacity: 0.7;
+                    }
+                }
+                div.OurTwitter{
+                    border: 1px solid #FFFFFF;
+                    border-radius: 1000px;
+                    width: 167px;
+                    display: flex;
+                    flex-direction: row;
+                    img{
+                        width: 20px;
+                        height: 16px;
+                        margin: 23px 12px 22px 23px;
+                    }
+                    h6{
+                        width: 83px;
+                        font-family: 'Inter';
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 14px;
+                        line-height: 36px;
+                        color: #FFFFFF;
+                        margin-top: 13px;
+                    }
+                    &:hover{
+                        cursor: pointer;
+                        opacity: 0.7;
+                    }
+                }
+            }
+        }
+        div.img{
+            margin: 105.01px 62px 75.99px;
+            background: url(../../../assets//images/Join_the_Community_1.png) center no-repeat;
+        }
+    }
+}
+@media (max-width:1024px){
+    div.JoinTheCommunity{
+        div.ContentJoinTheCommunity{
+            div.content{
+                margin-left: 100px;
+            }
+            div.img{
+                margin-left: -130px;
+            }
+        } 
+    }
+}
+@media (max-width:768px){
+    div.JoinTheCommunity{
+        div.ContentJoinTheCommunity{
+            flex-direction:column-reverse;
+            div.content{
+                margin-left: 90px;
+                margin-top: 50px;
+            }
+            div.img{
+                margin-left: 0px;
+                margin-bottom: 0px;
+            }
+        } 
+    }
+}
+@media (max-width:480px){
+    div.JoinTheCommunity{
+        div.ContentJoinTheCommunity{
+            div.content{
+                justify-content: center;
+                margin: 50px 20px 50px 40px;
+                h1{
+                    font-weight: 600;
+                    font-size: 24px;
+                    line-height: 56px;
+                    color: #FFFFFF;
+                    width: 250px;
+                }
+                div.JoinUsOnTelegram{
+                    width: 250px;
+                    &:hover{
+                        cursor: pointer;
+                        opacity: 0.7;
+                    }
+                }
+                div.button{
+                    flex-direction: column;
+                    margin-top: 20px;
+                    margin-left: 40px;
+                    div.OurMedium{
+                        margin-bottom: 20px;
+                    }
+                    div.OurTwitter{
+                        margin-bottom: 30px;
+                    }
+                }
+            }
+            div.img{
+                display: none;
+            }
+        } 
+    }
+}

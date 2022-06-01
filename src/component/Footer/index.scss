@@ -1,0 +1,128 @@
+div.footer{
+    div.contentFooter{
+        display: flex;
+        margin-top: 103.01px;
+        justify-content: center;
+        ul.nav{
+            h4{
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 14px;
+                line-height: 12px;
+                text-transform: uppercase;
+                color: #23262F;
+            }
+            p{
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 14px;
+                line-height: 30px;
+                color: #777E90;
+                margin: 21px 112px 0px -15px;
+                &:hover{
+                    cursor: pointer;
+                    opacity: 0.7;
+                }
+            }
+            li.item_LOGO{
+                img{
+                    margin: -20px 0px 11px 0px;
+                    width: 148px;
+                    height: 46px;
+                    &:hover{
+                        cursor: pointer;
+                    }
+                }
+                p{
+                    width: 278px;
+                    height: 69px;
+                    margin-top: 0px;
+                }
+            }
+            li.Products{
+                p{
+                    width: 119px;
+                    height: 132px;
+                }
+                
+            }
+            li.Support{
+                p{
+                    width: 144px;
+                    height: 99px;
+                }
+                
+            }
+            li.Social{
+                div.item_Telegram{
+                    background: url(../../assets/images/item_Telegram.png);
+                    background-repeat: no-repeat;
+                    background-size: 100%;
+                    width: 17px;
+                    height: 15px;
+                    margin-top: -85px;
+                }
+                div.item_Twitter_black{
+                    background: url(../../assets/images/item_Twitter_black.png);
+                    background-repeat: no-repeat;
+                    background-size: 100%;
+                    width: 17px;
+                    height: 15px;
+                    margin-top: 15px;
+                }
+                div.item_Medium{
+                    background: url(../../assets/images/item_Medium.png);
+                    background-repeat: no-repeat;
+                    background-size: 100%;
+                    width: 17px;
+                    height: 15px;
+                    margin-top: 15px;
+                }
+                p{
+                    width: 100px;
+                    height: 99px;
+                    margin-left: 13px;
+                }
+                
+            }
+        }
+    }
+    div.end{
+        text-align: center;
+        width: 100%;
+        height: 20px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 20px;
+        color: #777E91;
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        margin: 39px 0px 20px;
+    }
+}
+
+@media (max-width:1024px){
+    div.footer{
+        div.contentFooter{
+            ul.nav{
+                li.item_LOGO{
+
+                }
+                li.Products{
+
+                }
+                li.Support{
+                    
+                }
+                li.Social{
+
+                }
+            }
+        }
+    }
+}

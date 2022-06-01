@@ -1,7 +1,7 @@
 div.SANDWICHToken{
     width: 100%;
     background: #F4F5F6;
-    height: 1037px;
+    padding: 127px 0px 246.82px 0px;
     h1{
         display:flex;
         justify-content: center;
@@ -27,6 +27,12 @@ div.SANDWICHToken{
             width: 312px;
             height: 263px;
             padding-top: 10px;
+            &:hover{
+                cursor: pointer;
+                background: #FCFCFD;
+                box-shadow: 0px 4px 80px rgba(0, 0, 0, 0.04);
+                border-radius: 20px;
+            }
             div.item{
                 display:flex;
                 justify-content: center;
@@ -42,10 +48,8 @@ div.SANDWICHToken{
                     margin-top: 24px;
                 }
             }
-            p.text{
+            p{
                 display:flex;
-                justify-content: center;
-                width: 194px;
                 font-family: 'Inter';
                 font-style: normal;
                 font-weight: 400;
@@ -56,26 +60,43 @@ div.SANDWICHToken{
                 flex: none;
                 order: 1;
                 flex-grow: 0;
-                margin: 25px 59px 0px 59px ;
+                margin: 25px 0px 20px 0px ;
+            }
+            p.Participate{
+                width: 230px; 
+                margin: 25px 41px 51px 41px ;
+            }
+            p.Discounts{
+                max-width: 194px;
+                margin: 25px 59px 51px 59px ;
+            }
+            p.Key{
+                max-width: 263.96px;
+                margin: 25px 24.02px 51px 24.02px ;
+            }
+            p.Access{
+                max-width: 279px;
+                margin: 25px 16.5px 51px 16.5px ;
+            }
+            p.Staking{
+                max-width: 262px;
+                margin: 25px 25px 51px 25px ;
+            }
+            p.Benefit{
+                max-width: 262px;
+                margin: 25px 25px 51px 25px ;
             }
         }
-    }
-    div.cardMap:hover, div.cardMap:focus{
-        background: #FCFCFD;
-        box-shadow: 0px 4px 80px rgba(0, 0, 0, 0.04);
-        border-radius: 20px;
+        div.cardMap:focus{
+            background-color: #FCFCFD;
+            box-shadow: 0px 4px 80px rgba(0, 0, 0, 0.04);
+            border-radius: 20px;
+        }
     }
 }
-@media (min-width: 1026px) {
-    
-}   
-@media (max-width: 1025px) {
-    
-}   
 
 @media (max-width: 768px) {
     div.SANDWICHToken{
-        height: 1337px;
         div.flex{
             display: grid;
             grid: 263px / auto auto;
@@ -84,6 +105,14 @@ div.SANDWICHToken{
     }
 }
 
+@media (max-width: 600px) {
+    div.SANDWICHToken{
+        div.flex{
+            grid-row-gap: 20px;
+            grid-column-gap: 0px;
+        }
+    }
+}
 @media (max-width: 480px) {
     div.SANDWICHToken{
         height: auto;

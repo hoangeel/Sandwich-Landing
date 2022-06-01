@@ -1,0 +1,283 @@
+div.Section{
+    div.contentSection{
+        padding: 285.5px 0px 138px 120px;
+        h1{
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 60px;
+            line-height: 82px;
+            color: #23262F;
+            flex: none;
+            order: 0;
+            flex-grow: 0;
+            max-width: 613px;
+            span{
+                color: #FF5757;
+            }
+        }
+        p{
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 31px;
+            color: #777E91;
+            flex: none;
+            order: 1;
+            flex-grow: 0;
+            max-width: 523px;
+            margin: 30.5px 0px 47px 0px;
+        }
+        div.button{
+            display: flex;
+            flex-direction: row;
+            button.LaunchApp{
+                margin-right: 15px;
+                justify-content: center;
+                align-items: center;
+                padding: 22px 35px;
+                background: #FF5757;
+                border-radius: 90px;
+                border: #FF5757;
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 16px;
+                line-height: 16px;
+                color: #FCFCFD;
+                flex: none;
+                order: 0;
+                flex-grow: 0;
+                max-width: 164px;
+                &:hover{
+                    opacity: 0.7;
+                }
+            }
+            button.PitchDeck{
+                justify-content: center;
+                align-items: center;
+                padding: 26px 39px 25px 40px;
+                background: #FCFCFD;
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 16px;
+                line-height: 16px;
+                color: #FF5757;
+                flex: none;
+                order: 0;
+                flex-grow: 0;
+                border-radius: 90px; 
+                border: 1px solid #FF5757;
+                border-radius: 90px;
+                &:hover{
+                    opacity: 0.7;
+                }        
+            }
+        }
+    }
+    div.logoCP{
+        display: flex;
+        flex-direction: row ;
+        padding: 0px 357.64px 90px 120px;
+        p{
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 10px;
+            line-height: 15px;
+            letter-spacing: 0.115em;
+            text-transform: uppercase; 
+            color: #B6B6B6;
+        }
+        div.cp1{
+            margin-top: 12px;
+            &:hover{
+                cursor: pointer;
+            }
+        }
+        div.cp2{
+            margin: 8px 88.88px 0px 92px ;
+            p{
+                margin: 7.01px 0px 0px 23px;
+            }
+            &:hover{
+                cursor: pointer;
+            }
+        }
+        div.cp3{
+            p{
+                margin-left: 32.07px;
+                margin-right: -4px;
+            }
+            &:hover{
+                cursor: pointer;
+            }
+        }
+        div.cp4{
+            margin: 0px 67.64px 0px 83.64px ;
+            p{
+                margin-left: 16px;
+            }
+            &:hover{
+                cursor: pointer;
+            }
+        }
+        div.cp5{
+            margin-top: 5px;
+            p{
+                margin: 9px 0px 0px 33px;
+            }
+            &:hover{
+                cursor: pointer;
+            }
+        }
+    }
+}
+
+@media (max-width: 1025px) {
+    div.Section{
+        div.contentSection{
+            padding: 200px 0px 138px 70px;
+        }
+        div.logoCP{
+            padding: 0px 357.64px 90px 70px;
+            div.cp1{
+                margin-top: 12px;
+            }
+            div.cp2{
+                margin: 8px 48.88px 0px 52px ;
+            }
+            div.cp4{
+                margin: 0px 47.64px 0px 43.64px ;
+            }
+            div.cp5{
+                margin-top: 5px;
+            }
+        }
+    }   
+}
+@media (max-width: 768px) {
+    div.Section{
+        div.contentSection{
+            padding: 200px 0px 138px 50px;
+        }
+        div.logoCP{
+            padding-left: 50px;
+            display: grid;
+            grid: auto / auto auto auto;
+            gap: 40px;
+            div.cp2{
+                margin: 8px 0px 0px 0px ;
+            }
+            div.cp3{
+                p{
+                    margin-left: 20px;
+                }
+            }
+            div.cp4{
+                margin: 0px;
+            }
+            div.cp5{
+                margin-top: 5px;
+            }
+        }
+    } 
+}
+
+@media (max-width: 480px) {
+    div.Section{
+        div.contentSection{
+            padding: 185.5px 0px 138px 30px;
+            h1{
+                font-size: 40px;
+                line-height: 42px;
+            }
+            div.button{
+                button.LaunchApp{
+                    margin-right: 15px;
+                    padding: 20px 15px;
+                    font-size: 14px;
+                    line-height: 16px;
+                    max-width: 114px;
+                }
+                button.PitchDeck{
+                    margin-right: 15px;
+                    padding: 20px 15px;
+                    font-size: 14px;
+                    line-height: 16px;
+                    max-width: 114px;   
+                }
+            }
+        }
+        div.logoCP{
+            padding-left: 30px;
+            display: grid;
+            grid: auto / auto auto ;
+            gap: 60px;
+            div.cp1{
+                margin-top: 12px;
+            }
+            div.cp2{
+                margin: 8px 0px 0px 0px ;
+            }
+            div.cp3{
+                p{
+                    margin-left: 20px;
+                }
+            }
+            div.cp4{
+                margin: 0px;
+            }
+            div.cp5{
+                margin-top: 5px;
+            }
+        }
+    } 
+}
+@media (max-width: 376px) {
+    div.Section{
+        div.contentSection{
+            padding: 185.5px 0px 138px 30px;
+            h1{
+                font-size: 40px;
+                line-height: 42px;
+            }
+            div.button{
+                button.LaunchApp{
+                    margin-right: 15px;
+                    padding: 20px 15px;
+                    font-size: 14px;
+                    line-height: 16px;
+                    max-width: 114px;
+                }
+                button.PitchDeck{
+                    margin-right: 15px;
+                    padding: 20px 15px;
+                    font-size: 14px;
+                    line-height: 16px;
+                    max-width: 114px;   
+                }
+            }
+        }
+        div.logoCP{
+            padding-left: 20px;
+            gap:20px;
+            div.cp2{
+                margin: 8px 0px 0px 0px ;
+            }
+            div.cp3{
+                p{
+                    margin-left: 20px;
+                }
+            }
+            div.cp4{
+                margin: 0px;
+            }
+            div.cp5{
+                margin-top: 5px;
+            }
+        }
+    } 
+}
