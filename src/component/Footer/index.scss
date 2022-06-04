@@ -10,6 +10,10 @@ div.footer{
             font-size: 14px;
             line-height: 30px;
             color: #777E90;
+            &:hover{
+                cursor: pointer;
+                opacity: 0.7;
+            }
         }
         h4{
             margin-bottom: 21px;
@@ -20,9 +24,18 @@ div.footer{
             line-height: 12px;
             text-transform: uppercase;
             color: #23262F;
+            &:hover{
+                cursor: pointer;
+                opacity: 0.7;
+            }
         }
         div.logo{
             margin-top: -22px;
+            img{
+                &:hover{
+                    cursor: pointer;
+                }
+            }
             p{
                 max-width: 278px;
                 margin: 11px 112px 0px 0px;
@@ -45,6 +58,10 @@ div.footer{
             div.Telegram{
                 display: flex;
                 flex-direction: row;
+                &:hover{
+                    cursor: pointer;
+                    opacity: 0.7;
+                }
                 img{
                     width: 17px;
                     height: 15px;
@@ -59,6 +76,10 @@ div.footer{
                 display: flex;
                 flex-direction: row;
                 margin: 12px 0px 14.62px 0px;
+                &:hover{
+                    cursor: pointer;
+                    opacity: 0.7;
+                }
                 img{
                     width: 20px;
                     height: 16px;
@@ -73,6 +94,10 @@ div.footer{
             div.Medium{
                 display: flex;
                 flex-direction: row;
+                &:hover{
+                    cursor: pointer;
+                    opacity: 0.7;
+                }
                 img{
                     width: 15.75px;
                     height: 15.75px;
