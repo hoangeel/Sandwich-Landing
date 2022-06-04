@@ -46,6 +46,10 @@ div.How_to_buy_SANDWICH{
                     display: flex;
                     flex-direction: row;
                     margin-right: 104px;
+                    &:hover{
+                        cursor: pointer;
+                        opacity: 0.7;
+                    }
                     div.background{
                         margin-right: 20.55px;
                         img{
@@ -60,6 +64,10 @@ div.How_to_buy_SANDWICH{
                 div.PancakeSwap{
                     display: flex;
                     flex-direction: row;
+                    &:hover{
+                        cursor: pointer;
+                        opacity: 0.7;
+                    }
                     div.background{
                         margin-right: 20.55px;
                         img{

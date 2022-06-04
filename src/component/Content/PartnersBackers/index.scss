@@ -25,6 +25,11 @@ div.PartnersBackers{
             grid-gap: 40.98px;
             max-width: 1235.94px;
             justify-items: center;
+            img{
+                &:hover{
+                    cursor: pointer;
+                }
+            }
             div.PeechCapital{
                 grid-column: span 2;
             }
